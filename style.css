@@ -1,0 +1,209 @@
+h1 {
+	text-align: center;
+	font-size: 4em;
+}
+
+#wrapper {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+header {
+	background-color: navy;
+	overflow: hidden;
+}
+
+table {
+	margin: auto;
+	width: 30%;
+	height: 300px;
+}
+td {
+	text-align: center;
+	font-weight: bold;
+}
+
+input[type="txt"]:disabled {
+	background-color: #d3d3d3;
+}
+
+input[type="submit"] {
+	background-color: gray;
+	border-color: gray;
+	width: 100px;
+	height: 50px;
+}
+
+select {
+	text-align-last: center;
+}
+
+.add {
+	width: 70px;
+}
+
+#user {
+	float: left;
+	padding-left: 15px;
+	margin: 10px;
+}
+#user [type="submit"] {
+	width: 150px;
+}
+
+#logout {
+	float: right;
+	padding-right: 15px;
+	margin: 10px;
+}
+#logout [type="submit"] {
+	width: 150px;
+}
+
+#left {
+	/*background-color: red;*/
+	width: 50%;
+	float: left;
+	margin-top: 153px;
+}
+
+#right {
+	/*background-color: blue;*/
+	width: 50%;
+	float: right;
+	margin-top: 40px;
+}
+
+table#search {
+	/*background-color: orange;
+	border: 1px solid;*/
+	height: 150px;
+	float: right;
+}
+
+table#add_product {
+	width: 35%;
+}
+table#add_product td {
+	text-align: right;
+	padding-right: 15px;
+	vertical-align: top;
+}
+#add_product span {
+	color: red;
+}
+#add_product input[type="txt"] {
+	width: 200px;
+}
+#add_product select {
+	width: 205px;
+}
+#add_product textarea {
+	width: 200px;
+	height: 150px;
+}
+
+#search input[type="txt"], #search select {
+	width: 200px;
+}
+#search input[type="button"] {
+	width: 100px;
+}
+
+#cancel {
+	background-color: gray;
+	border-color: gray;
+	width: 100px;
+	height: 50px;
+}
+
+#preview {
+	clear: both;
+	padding-top: 50px;
+}
+
+table#previewtb {
+	width: 70%;
+	height: auto;
+	border: 1px solid;
+	border-collapse: collapse;
+}
+#previewtb th, #previewtb tr, #previewtb td {
+	border: 1px solid;
+}
+#previewtb th {
+	font-size: 24px;
+	background-color: navy;
+	color: white;
+}
+#previewtb th a {
+	text-decoration: none;
+	display: block;
+	color: white;
+}
+#previewtb th a:hover{
+	color: navy;
+	background-color: white;
+}
+#previewtb img, #previewtb figure {
+	width: 150px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#previous {
+	float: left;
+	width: 33%;
+	text-align: right;
+}
+
+#page {
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+
+#next {
+	float: left;
+	width: 33%;
+	text-align: left;
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    /*z-index: 1;*/
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.6); 
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: white;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    width: 50%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
